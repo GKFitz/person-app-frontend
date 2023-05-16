@@ -8,7 +8,7 @@ export const Main = (props) => {
     const [ people, setPeople ] = useState(null)
 
     // const URL = "http://localhost:4000/people/";
-    const URL = "https://person-app-backend.onrender.com/people";
+    const URL = "https://person-app-backend.onrender.com/people/";
 
     const getPeople = async () => {
         console.log("i've been hit!")
