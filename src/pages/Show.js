@@ -20,7 +20,7 @@ const Show = (props) => {
         setEditForm(person)
       }
 
-    }, [])
+    }, [person])
 
   // handling form data change
   const handleChange = (e) => {
